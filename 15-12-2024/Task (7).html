@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.static{ border:2px dotted black ;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 340px ;
+     }
+     
+.div1 {background-color: red;  width: 100px; height: 100px; margin: 4px; }
+.div2 {background-color: red; width: 100px; height: 100px; margin: 4px; }
+.div3 { background-color: green; width: 100px; height: 100px; margin: 4px; }
+.div4 {background-color: red;  width: 100px; height: 100px; margin: 4px; }
+
+.relative {border:2px dotted black ;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 340px ;}
+
+      
+     
+.div1r {background-color: red;  width: 100px; height: 100px; margin: 4px; }
+.div2r {background-color: red; width: 100px; height: 100px; margin: 4px; }
+.div3r { background-color: green; width: 100px; height: 100px; margin: 4px; position: relative; top: 10px; left: 10px; }
+.div4r {background-color: red;  width: 100px; height: 100px; margin: 4px; }
+
+
+.absolute {border:2px dotted black ;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 340px ;
+     position: relative;  
+    }
+
+      
+     
+.div1a {background-color: red;  width: 100px; height: 100px; margin: 4px; }
+.div2a {background-color: red; width: 100px; height: 100px; margin: 4px; }
+.div3a { background-color: green; width: 100px; height: 100px; margin: 4px; position: absolute; top: 10px; left: 10px; }
+.div4a {background-color: red;  width: 100px; height: 100px; margin: 4px; }
+
+</style>
+
+</head>
+<body>
+    postion :static
+<br>
+   <div class="static">
+    <div class="div1">one</div>
+    <div class="div2" style="background-color: red;">two</div>
+    <div class="div3">three</div>
+    <div class="div4" style="background-color: red;">four</div>
+
+</div>
+<br> <br>
+    postion :relative
+<br>
+   <div class="relative">
+    <div class="div1r">one</div>
+    <div class="div2r" style="background-color: red;">two</div>
+    <div class="div3r">three</div>
+    <div class="div4r" style="background-color: red;">four</div>
+
+   </div> 
+
+<br> <br>
+    postion :absolute
+<br>
+   <div class="absolute">
+    <div class="div1a">one</div>
+    <div class="div2a" style="background-color: red;">two</div>
+    <div class="div3a">three</div>
+    <div class="div4a" style="background-color: red;">four</div>
+    </div>
+</body>
+</html>
