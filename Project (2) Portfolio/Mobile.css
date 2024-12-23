@@ -1,0 +1,72 @@
+@media only screen and (max-width: 426px) {
+    .Projects {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .Contact {
+        height: 100%;
+        padding-bottom: 20px;
+
+    }
+
+
+
+
+    .timeline::after {
+        display: none;
+    }
+
+    .right-container {
+        left: 0%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .left-container {
+        left: 0%;
+    }
+
+    .Projects .card {
+        width: 22rem !important;
+    }
+
+    .Projects .card:last-child {
+        margin-left: 0px !important ;
+    }
+
+    .footer {
+    
+        grid-template-columns: auto;
+        justify-content: end;
+    }
+
+    .ContactInfo {
+        grid-template-columns: auto;
+    }
+
+   .Volunteering {
+        grid-template-columns: auto ;
+    }
+
+
+
+    .soft {
+
+        grid-template-columns: auto auto ;
+        justify-content: center;
+    }
+
+    .Skills div div { 
+        width: 32vw;}
+
+    .Volunteering div { width: 37vw; }
+
+    .form {width: 54vw;}
+ 
+   .footer-TM img { width: 200px !important; }
+
+
+}
