@@ -58,6 +58,11 @@
         grid-template-columns: auto auto ;
         justify-content: center;
     }
+    .technical {
+        grid-template-columns: auto auto ;
+        justify-content: center;        
+
+    }
 
     .Skills div div { 
         width: 32vw;}
@@ -66,7 +71,7 @@
 
     .form {width: 54vw;}
  
-   .footer-TM img { width: 200px !important; }
+   .footer .TM img { width: 200px !important; }
 
 
 }

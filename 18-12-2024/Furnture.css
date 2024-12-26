@@ -1,0 +1,254 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+body {background-color: #EFF2F1 ;}
+
+.navbar {
+            background-color: #35736E;   
+        }
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+                                            color: white;
+                                            border-bottom: 4px solid #FFD748;
+                                            padding-bottom: 0px;
+                                            padding-right: 0px;
+                                            padding-left: 0px;
+                                            margin-right: 10px;                                        
+                                        }
+
+.navbar-light .navbar-nav .nav-link {
+            color:  white;
+          }
+
+.Home h2 {
+           color: white; 
+           margin-top: 50%;
+           margin-left: 20%; 
+           margin-bottom: 12%;
+           font-family: 'DM Serif Text'; 
+           font-weight: 400;
+           font-size: 51.3333px;    
+           line-height: 70px;
+           width: 100%;
+           text-shadow: 0px 3.73333px 3.73333px rgba(0, 0, 0, 0.25);
+        }
+#btnShop {
+           border-radius: 28px; 
+           background-color:#FFD748; 
+           color:black; 
+           border-color: #FFD748; 
+           width: 149.33px;
+           height: 46.67px; 
+           font-size: 18.6667px;
+}
+
+#btnExplore {
+            border-radius: 28px; 
+            background-color: #35736E; 
+            color:black; 
+            border-color: white; 
+            width: 149.33px;
+            height: 46.67px;  
+            font-size: 18.6667px;
+}
+
+.HomeDotted{position: absolute;
+            top: 115px; right: 64px; 
+           }
+
+.HomeCouch { 
+            position: absolute;
+            width: 756px;
+            height: 542.53px;
+            right: 73.87px;
+            top: 39.93px;
+           }
+
+
+.ShortHeading {
+                font-family: 'Poppins'; 
+                font-style: normal; 
+                font-weight: 600; 
+                font-size: 31.7333px; 
+                margin-top: 60px; 
+                margin-left: 40px;
+                color: #2F2F2F;
+             }      
+
+
+
+
+
+.ProductDetails { 
+                font-family: 'Inter'; 
+                font-style: normal; 
+                font-weight: 400; 
+                font-size: 13.0667px; 
+                line-height: 22px; 
+                margin-left: 40px;
+                color: gray;
+
+                }
+
+.Chairs { color: #EFF2F1;} 
+
+#btnExplore-Chairs{
+                    border-radius: 28px; 
+                    background-color: #35736E; 
+                    color:white; 
+                    border-color: white; 
+                    width: 149.33px; 
+                    height: 46.67px;  
+                    font-size: 18.6667px; 
+                    margin-left: 40px;
+
+}
+.card {
+        width: 18rem; 
+        padding-top: 20px; 
+        margin-top: 63px;
+        background: rgba(53, 115, 110, 0.1);
+        box-shadow: 2.8px 4.66667px 3.73333px rgba(0, 0, 0, 0.25);
+        border-radius: 18.6667px;
+        height: 21vw;
+}
+.Product1, .Product2, .Product3 {
+    position: absolute;
+    height: auto;
+    top: -5vw;
+    left: 0vw;
+    max-width: 100%;
+            }
+
+.card-text {   
+     text-align: center;
+     margin-top: 12vw;
+    font-weight: bold;
+}
+
+
+
+.GrayDotted {
+                position: absolute;
+                top: 136vw;
+            }
+
+.OrangeCouch{
+               width: 390; 
+               height: 450px; 
+               position: absolute; 
+               top: 141vw;
+               left: 11vw;
+            }
+.Lamp {
+              position: absolute; 
+              top: 141vw;
+              left: 37vw;
+             }
+
+.WoodenChair{   
+            position: absolute;
+            left: 33.5vw;
+            top: 153.5vw;
+            }
+
+.Parent{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        position: relative;
+        margin-top: 12vw;
+      }
+
+#cardF1 {
+    display: flex;           
+    width: 5rem;
+    height: 5vw;
+    padding-top: 20px;
+    margin-top: 63px;
+    margin-left: 8vw;
+    background: rgba(53, 115, 110, 0.3);
+    border-radius: 9.33333px;
+             }         
+             
+#cardF2 {
+                display: flex;           
+                width: 5rem;
+                height: 5vw;
+                padding-top: 20px;
+                margin-top: 63px;
+                margin-left: 8vw;
+                background: rgba(53, 115, 110, 0.3);
+                border-radius: 9.33333px;
+        }         
+
+#cardF3 {
+        display: flex;           
+        width: 5rem;
+        height: 5vw;
+        padding-top: 20px;
+        margin-top: 63px;
+        margin-left: 8vw;
+        background: rgba(53, 115, 110, 0.3);
+        border-radius: 9.33333px;
+       }         
+  
+             
+             
+.Product-F1{
+    position: absolute;
+    left: 7.93%;
+    right: 85%;
+    top: 16.87%;
+    bottom: 52.63%;
+}
+.Product-F2{
+    position: absolute;
+    left: 41%;
+    right: 85%;
+    top: 16.87%;
+    bottom: 52.63%;
+}
+
+.Product-F3{
+    position: absolute;
+    right: 20.3%;
+    top: 22.87%;
+    bottom: 52.63%;
+}
+
+.disc{
+    margin-top: 3vw;
+    margin-left: -2vw;
+    line-height: 1vw;
+    
+}
+
+td {padding-right: 5vw;}
+
+td >a {text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.0667px;
+    line-height: 22px;
+    
+    color: #6A6A6A;}
+
+    .Terms_Condetion{ text-align: right; background-color: white; }
+
+    .terms_privacy >a {text-decoration: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13.0667px;
+        line-height: 22px;
+        
+        color: #6A6A6A;}
+
+        .copyright {background-color: white; 
+            
+            
+            }
